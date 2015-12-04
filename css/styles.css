@@ -1,0 +1,180 @@
+/*globals */
+html {
+    height: 100%
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.nav {
+	background-color: #AE0000;
+}
+.nav img {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+/*home page */
+
+#home {
+	background-image: url('../img/aladdin.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	
+}
+
+
+.homepage {
+	padding-top: 2em;
+	padding-right: 1.5em;
+	color: #22718A;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #22718A,
+               0 3px 0 #bbb,
+               0 4px 0 #22718A,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(34,113,138,.1),
+               0 0 5px rgba(34,113,138,.1),
+               0 1px 3px rgba(34,113,138,.3),
+               0 3px 5px rgba(34,113,138,.2),
+               0 5px 10px rgba(34,113,138,.25),
+               0 10px 10px rgba(34,113,138,.2),
+               0 20px 20px rgba(34,113,138,.15);
+}
+
+/*about page */
+#about {
+	background-image: url('../img/bw.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	filter: blur(20%);
+}
+
+.aboutpage {
+	margin-top: 2em;
+	width: 100%;
+	height: 450px;
+	overflow: scroll;
+}
+.aboutpage p {
+	padding: 2em 1em .5em 2em;
+	color: white;
+	float: left;
+	text-align: left;
+	padding-right: 50%;
+}
+
+.aboutpage h2 {
+	font-size: 2em;
+	color: #AE0000;
+	margin: 3em auto auto 1em;
+}
+/* upcoming */
+
+.upcoming {
+	margin: 2em auto;
+}
+
+.blackstar {
+	text-align: left;
+	padding: 2em;
+	margin-left: -2em;
+}
+
+/*error */
+#errorpage {
+	background-image: url('https://45.media.tumblr.com/3ad82dc4688665749a62e2462245506d/tumblr_n7yzdxETCq1qigryzo1_500.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+#errorpage h1 {
+	color: #AE0000;
+	font-size: 5em;
+	padding-top: 2em;
+	text-align: center;
+
+}
+
+
+/* ANIMATIONS
+============================================================================= */
+
+/* leaving animations ----------------------------------------- */
+/* rotate and fall */
+@keyframes rotateFall {
+    0%      { transform: rotateZ(0deg); }
+    20%     { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+    40%     { transform: rotateZ(17deg); }
+    60%     { transform: rotateZ(16deg); }
+    100%    { transform: translateY(100%) rotateZ(17deg); }
+}
+
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+/* rotate out newspaper */
+@keyframes rotateOutNewspaper {
+    to      { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
+}
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp {
+    from    { opacity: 0.0; -webkit-transform: scale(0.9); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+/*page animations */
+ .ng-enter{ 
+ 	animation: scaleUp 0.5s both ease-in; 
+ 	z-index: 8888; 
+ }
+ .ng-leave{ 
+ 	animation: slideOutLeft 0.5s both ease-in; 
+ 	z-index: 9999; 
+ }
+
+
+  /* page specific animations ------------------------ */
+
+/**/
+
+
