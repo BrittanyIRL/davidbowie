@@ -88,6 +88,7 @@ h1 {
 	padding: 0;
 	position: absolute;
 	filter: blur(20%);
+	overflow: hidden;
 }
 
 .aboutpage {
@@ -95,8 +96,8 @@ h1 {
 	width: 100%;
 	height: 70vh;
 	overflow: scroll;
-	overflow-x:hidden;
-	overflow-y:hidden;
+/*	overflow-x:hidden;
+	overflow-y:hidden;*/
 
 }
 .aboutpage p {
