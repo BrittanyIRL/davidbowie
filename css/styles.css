@@ -38,10 +38,11 @@ html {
 	padding-top: 2em;
 	padding-right: 1.5em;
 	color: #22718A;
-	font-size: 3em;
-	font-weight: 800;
+	font-size: 5em;
+	font-weight: 900;
 	text-align: center;
-	text-shadow: 0 1px 0 #ccc,
+	font-family: 'Chivo', sans-serif;
+	text-shadow: 0 3px 0 #ccc,
                0 2px 0 #22718A,
                0 3px 0 #bbb,
                0 4px 0 #22718A,
