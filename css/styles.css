@@ -42,7 +42,7 @@ html {
 	font-weight: 900;
 	text-align: center;
 	font-family: 'Chivo', sans-serif;
-	text-shadow: 0 3px 0 #ccc,
+	/*text-shadow: 0 3px 0 #ccc,
                0 2px 0 #22718A,
                0 3px 0 #bbb,
                0 4px 0 #22718A,
@@ -53,7 +53,7 @@ html {
                0 3px 5px rgba(34,113,138,.2),
                0 5px 10px rgba(34,113,138,.25),
                0 10px 10px rgba(34,113,138,.2),
-               0 20px 20px rgba(34,113,138,.15);
+               0 20px 20px rgba(34,113,138,.15);*/
 }
 
 /*about page */
